@@ -1,0 +1,69 @@
+/* profilerespo.css */
+
+/* スマホ (〜599px) 向け */
+@media (max-width: 599px) {
+  nav ul {
+    gap: 0.5rem;
+  }
+
+  .author-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .author-card img {
+    width: 100px;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* タブレット (600px〜899px) 向け */
+@media (min-width: 600px) and (max-width: 899px) {
+  nav ul {
+    gap: 0.8rem;
+  }
+
+  .author-card img {
+    width: 100px;
+  }
+
+  main {
+    padding: 1.2rem;
+  }
+}
+
+/* 大きい画面 (900px〜) 向け */
+@media (min-width: 900px) {
+  nav ul {
+    gap: 1.5rem;
+  }
+
+  .author-card img {
+    width: 120px;
+  }
+}
+
+@media (min-width: 600px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    main {
+        padding-top: 110px;
+        max-width: 900px
+    }
+    [id] {
+        scroll-margin-top: 110px;
+    }
+}
