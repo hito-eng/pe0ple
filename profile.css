@@ -1,0 +1,99 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Yu Gothic', 'Hiragino Kaku Gothic Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f7f3;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #3b3b3b;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: auto;
+  padding: 1.5rem;
+}
+
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+.author-card {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.author-card img {
+  width: 120px;
+  height: auto;
+  border-radius: 4px;
+}
+
+article {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  background-color: #3b3b3b;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+main a {
+  text-decoration: underline;
+  color: #333
+}
+
+main a:hover {
+  color: #551A8B
+}
